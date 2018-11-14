@@ -113,7 +113,7 @@ class Widget extends Component{
                             onClick={this.getWeatherData}>{this.state.searchButtonText}
                     </button>
                 </div>
-                <div className='container'>
+                <div className='container' style={{height: `${window.innerHeight - 77}px`}}>
                     {data}  
                     {dataDetails}
                 </div>

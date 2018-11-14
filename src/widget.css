@@ -35,8 +35,7 @@ body{
 }
 .container{
     background-color: #1781d5;
-   
-    height: 530px;
+    min-height: 400x;
     padding: 5px 20px;
     position: relative;
 }
