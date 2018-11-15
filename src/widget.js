@@ -17,7 +17,7 @@ class Widget extends Component{
         this.setState({
             searchButtonText: 'Searching...'
         });
-        axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${this.state.city}&APPID=b709fcac1915307bf07ae95cad0b4368`)
+        axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${this.state.city}&APPID=b709fcac1915307bf07ae95cad0b4368`)
             .then((response)=> {
                 console.log(response);
                 this.setState({
